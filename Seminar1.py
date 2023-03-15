@@ -85,15 +85,15 @@
 # # Input: 2016
 # # Output: YES
 
-# while True:
-#     year = (input('Write a year: '))
+while True:
+    year = (input('Write a year: '))
 
-#     if year.isdigit() == False:
-#         print('Error 404')
-#     else:
-#         break
+    if year.isdigit() == False:
+        print('Error 404')
+    else:
+        break
 
-# if int(year) % 4 == 0 or int(year) % 100 == 1 or int(year) % 400 == 0:
-#     print('YES')
-# else:
-#     print('NO')
+if int(year) % 4 == 0 or int(year) % 100 == 1 or int(year) % 400 == 0:
+    print('YES')
+else:
+    print('NO')
